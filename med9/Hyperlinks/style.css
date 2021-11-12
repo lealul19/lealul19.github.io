@@ -1,0 +1,30 @@
+:root {
+
+}
+ body{
+ 	background-color: deeppink;
+ }
+
+body {
+	background-color:lightpink;
+}
+
+h1  {
+	background-color: lightcoral;
+	padding: 30px;
+	font-size: 30px;
+	text-align: center;
+
+}
+
+p{ 
+	max-width: 600px;
+	margin: auto;
+}
+
+img{
+	margin: 30px;
+	border: dotted blue;
+	border-radius: 5px;
+	width: 600px;
+}

@@ -1,0 +1,21 @@
+div{
+	border: 1px solid  black;
+	margin: 5px;
+	padding: 30px;
+}
+
+.green {
+		background: red;
+		color: black;
+
+}
+
+.white {
+	background-color: white;
+	color: black;
+}
+
+.red {
+	background-color: green;
+	color: black;
+}
