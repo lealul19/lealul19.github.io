@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Arvo:wght@700&family=Fuzzy+Bubbles&family=Luxurious+Script&family=Satisfy&display=swap');
+a{  
+	padding: 50px;
+	font-size:30px ;
+	background: linear-gradient(229deg, rgba(156,121,69,1) 29%, rgba(207,167,126,1) 71%);
+	display: inline-block;
+}
+
+body{
+	background-color: #D4B996FF;
+}
+img{
+	width: 500px;
+	border: 10px;
+
+}
+
+h1{
+background-color: brown;
+}
+
+h2{
+	background-color: rosybrown;
+}
+
+h3{
+	background-color: saddlebrown;
+}
