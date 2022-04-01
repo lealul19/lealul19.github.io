@@ -1,0 +1,80 @@
+body{
+	margin: 0;
+}
+
+
+nav{
+	background-color: #2C5F2D;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px;
+	position: fixed;
+	width: calc(100% - 60px);
+	left: 0px;
+	top: 0px;
+}
+
+nav img {
+	height: 80px;
+	border-radius: 50%;
+}
+
+nav ul{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	list-style-type: none;
+}
+
+nav ul li a{
+	margin: 15px;
+	padding: 20px;
+	background-color: #97BC62FF;
+	text-decoration: none;
+	color: white;
+	border-radius: 20px;
+}
+
+nav ul li a:hover{
+	background-color: brown;
+	color: yellow;
+background: rgb(193,230,140);
+background: radial-gradient(circle, rgba(193,230,140,1) 13%, rgba(202,104,208,1) 29%, rgba(255,233,151,1) 47%, rgba(108,130,207,1) 71%, rgba(164,55,104,1) 84%);
+font-family: Hubballi;
+  }
+
+
+  /* Main */
+
+  main {
+  	padding: 100px;
+  	margin: 120px;
+
+  }
+
+  main h1{
+  	font-size: 50px;
+  	text-align: center;
+  }
+
+  p{
+  	line-height: 1.4;
+  	column-count: 2;
+  	font-size: 20px;
+  }
+
+
+  /* Background Div*/
+
+  #background {
+  	width: 100vw;
+  	height: 100vh;
+  	background-image: url("background.jpg");
+  	background-position: center;
+  	background-size: cover;
+  	position: fixed;
+  	left: 0px;
+  	top: 0px;
+  	z-index: -50;
+  }
