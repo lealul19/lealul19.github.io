@@ -1,0 +1,74 @@
+body{
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background-color: lightgrey;
+	font-family: "Roboto";
+}
+
+article{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+article .image{
+	height: 200px;
+	width: 300px;
+	background-image: url("img2.jpg");
+	background-size: cover;
+	background-position: center;
+	padding: 30px;
+}
+
+
+
+article .text {
+	height: 200px;
+	width: 300px;
+	background-color: white;
+	padding: 30px;
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+	flex-direction: column;
+	background: rgb(187,141,53);
+background: linear-gradient(241deg, rgba(187,141,53,1) 9%, rgba(232,202,145,1) 16%, rgba(255,169,18,1) 43%, rgba(194,156,119,1) 50%, rgba(201,147,52,1) 70%, rgba(214,158,46,1) 79%, rgba(120,93,38,1) 92%);
+  }
+
+  article .text h2{
+  	position: absolute;
+  	top: 95px;
+  	left: 450px;
+  	padding: 14px;
+  	text-transform: uppercase;
+  	color: darkblue;
+  	font-size: 40px;
+  	background-color: white;
+  }
+
+
+  article .text h1{
+  	position: absolute;
+  	top: 72px;
+  	left: 330px;
+  	padding: 14px;
+  	text-transform: uppercase;
+  	color: white;
+  	font-size: 40px;
+  	background-color: darkblue;
+  	font-size: 20px;
+  	z-index: 100;
+  }
+
+
+
+
+
+
+
+
+
+
