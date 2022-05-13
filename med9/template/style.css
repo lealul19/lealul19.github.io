@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Arvo:wght@700&family=Bebas+Neue&family=Fuzzy+Bubbles&family=Hubballi&family=Inconsolata&family=Luxurious+Script&family=Quicksand&family=Roboto+Flex:opsz,wght@8..144,200&family=Roboto:wght@100;300&family=Satisfy&family=Shizuru&display=swap');
+body{
+background-color: lightgray;
+}
+
+
+
+
+
+
+main{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-wrap: wrap;
+gap: 50px;
+s}
+nav {
+background-color: white;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 31px;
+height: 30px;
+}
+
+img{
+	
+	height: 80px;
+}
+
+
+
+nav ul {
+display: flex;
+justify-content: flex-end;
+align-items: center;
+list-style-type: none;
+
+
+
+
+
+}
+nav ul li a {
+margin: 16px;
+padding: 19px;
+text-decoration: none;
+color: white;
+border-radius: 21px;
+font-family: BhuTuka Expanded One;
+}
+nav ul li a:hover {
+background-color: white;
+color: black;
+}
+
+
+div{
+	height: 330px;
+	width: 300px;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+
+
+main{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 50px;
+	margin: 20px;
+}
+
+p{
+	background-color: black;
+    color: white;
+    padding: 6px;
+    margin: 0;
+    position: absolute;
+    }
+
+
+    h2{
+font-family: Roboto Flex;
+
