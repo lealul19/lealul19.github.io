@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Transition</title>
+
+	<style>
+		
+		
+		
+			.transformation  {
+				background-color: lightgreen;
+				color: black;
+				position: absolute;
+			text-align: center;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			top: 200px;
+			left: 100px;
+			height: 60px;
+			width: 100px;
+			
+			}
+
+			.Transition{
+
+				background-color: orange;
+				color: black;
+			position: absolute;
+			text-align: center;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			top: 200px;
+			left: 500px;
+			height: 60px;
+			width: 100px;
+			
+
+			}
+
+			.transformation:hover{
+				transform: rotate(180deg);
+
+			}
+
+
+			.Transition:hover{
+				transition: transform 3s;
+				transform: rotate(180deg);
+
+			}
+
+	</style>
+</head>
+<body>
+	<h1>Rotate</h1>
+	<p>The rotate () function defines a transformation that rotates an element around a fixel point on the 2D plane,without deforming it.</p>
+	<div class="transformation">
+		rotate
+	</div>
+
+	<div class="Transition">
+		rotate
+	</div>
+
+
+
+</body>
+</html>
