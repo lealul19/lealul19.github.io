@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+<style type="text/css">
+	
+div{
+	border: solid black 1px;
+	color: white;
+
+}
+
+.special{
+	/*grid-column-start: 1;
+	grid-column-end: 3;*/
+	grid-column: 2/ span 2;
+
+}
+
+
+.erstebox{
+	grid-column: 1/3;
+	grid-row: 1/3;
+
+}
+	.Container{
+		width: 50vh;
+		height: 50vh;
+		display: grid;
+		/*Defines number and width of the columns
+		fr: fraction*/
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-areas: 1fr 1fr 1fr;
+		border-width: 0px;
+
+	}
+
+	body{
+		display: flex;
+		 justify-content: center;
+		 align-items: center;
+		 min-width: 110vh;
+	}
+</style>
+
+
+
+
+</head>
+<body>
+	<div class="Container">
+		<div class="erstebox">1</div>
+		<div>2</div>
+		<div>3</div>
+		<div>4</div>
+		<div class="special">5</div>
+		
+
+	</div>
+</body>
+</html>
