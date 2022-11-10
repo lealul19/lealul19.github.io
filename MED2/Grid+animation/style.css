@@ -1,0 +1,66 @@
+.container{
+	width: 100vw;
+	height: 100vh;
+	display: grid;
+	grid-template-columns: 20vh 1fr 20vh;
+	grid-template-rows: 10vh 1fr 1fr 10vh;
+
+}
+
+
+header{
+	animation: filling 5s;
+	background: lightcoral;
+	border: 2px solid black;
+	grid-column: 1/4;
+	grid-row: 1/2;
+}
+
+nav{
+	border: 2px solid black;
+ grid-column: 1/2;
+ grid-row: 2/4;
+ animation: filling 2s;
+ background: lightpink;
+}
+main{
+	border: 2px solid black;
+	grid-column: 2/3;
+	grid-row: 2/4;
+	animation: move 5s;
+background: lightsalmon;
+
+}
+
+.aside1{
+		border: 2px solid black;
+		background-image: url(img2.jpg);
+
+
+}
+
+.aside2{
+		border: 2px solid black;
+		background-image: url(img1.jpg);
+
+}
+
+footer{
+	border: 2px solid black;
+	grid-column: 1/4;
+	animation: filling 5s;
+	background:lightblue ;
+
+}
+
+@keyframes filling{
+	0%{width: 0;}
+	50%{width: 25%;}
+	75%{width: 50%;}
+	85%{width: 75%px;}
+}
+
+  @keyframes move {
+ 	0%{transform: translateY(0px);}
+ 	50% {transform: translateY(50px);}
+    }
