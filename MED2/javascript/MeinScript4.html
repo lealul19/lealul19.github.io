@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Arbeiten mit Variablen</title>
+</head>
+<body>
+	<script type="text/javascript">
+		"use strict";
+		let x;
+		// promt always creates the type string.
+		x = prompt("Bitte geben Sie eine Zahl ein:");
+		document.write("x ist nachfolgender Datentyp:"+typeof x+"<br>");
+		document.write(x+3+"<br><br>");
+
+		// change of type
+		x = Number(x);
+		document.write("x ist nachfolgender Datentyp:"+typeof x+"<br>");
+		document.write(x+3);
+	</script>
+
+</body>
+</html>
