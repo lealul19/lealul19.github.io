@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+		"use script";
+		let x;
+		let y;
+		let result1;
+		let result2; 
+		let result3;
+		let result4;
+		let count=0;
+
+
+		x=prompt("Bitte geben Sie die erste Zahl ein:");
+		x=Number(x);
+		y=prompt("Bitte geben Sie die zweite Zahl ein:");
+		y=Number(y);
+
+		result1=prompt("Die Summe von "+x+" und "+y+" ist:");
+		result1=Number(result1);
+		result2=prompt("Das Produkt von "+x+" und "+y+" ist:");
+		result2=Number(result2);
+		result3=prompt("Der Differenz von "+x+" und "+y+" ist:");
+		result3=Number(result3);
+		result4=prompt("Der Quotient von "+x+" und "+y+" ist:");
+		result4=Number(result4);
+
+
+
+		if(result1==x+y){
+			count++;
+		}if(result2==x*y){
+			count++;
+		}if(result3==x-y){
+			count++;
+		}if(result4==x/y){
+			count++
+		}
+ 
+
+if (result1==x+y || result2==x*y || result3==x-y ||result4==x/y) {
+	alert("Es gibt "+count+"richtige Ergebnisse.");
+}
+
+
+
+	</script>
+
+
+</body>
+</html>
